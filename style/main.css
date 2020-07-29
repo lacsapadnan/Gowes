@@ -10913,12 +10913,6 @@ footer p {
   display: block;
 }
 
-.page-details {
-  /* Content */
-  /* Fallback example */
-  /* Example media queries */
-}
-
 .page-details h5 {
   font-weight: 500;
   font-size: 16px;
@@ -11000,127 +10994,17 @@ footer p {
   color: #333333;
 }
 
-.page-details .tabs {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  margin: 1em 0 2em;
-  font-weight: bold;
-}
-
-.page-details .tabs nav {
+.page-details #angka {
+  width: 50px;
   text-align: center;
 }
 
-.page-details .tab nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: inline-block;
+.page-details .btn-qty-kurang {
+  background: #979797;
 }
 
-.page-details .tabs nav ul li {
-  border: 1px solid #becbd2;
-  border-bottom: none;
-  margin: 0 0.25em;
-  display: block;
-  float: left;
-  position: relative;
-}
-
-.page-details .tabs nav li.tab-current {
-  border: 1px solid #47a3da;
-  -webkit-box-shadow: inset 0 2px #47a3da;
-          box-shadow: inset 0 2px #47a3da;
-  border-bottom: none;
-  z-index: 100;
-}
-
-.page-details .tabs nav li.tab-current:before,
-.page-details .tabs nav li.tab-current:after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  right: 100%;
-  bottom: 0;
-  width: 1000px;
-  background: #47a3da;
-}
-
-.page-details .tabs nav li.tab-current:after {
-  right: auto;
-  left: 100%;
-  width: 4000px;
-}
-
-.page-details .tabs nav a {
-  color: #becbd2;
-  display: block;
-  font-size: 1.45em;
-  line-height: 2.5;
-  padding: 0 1.25em;
-  white-space: nowrap;
-}
-
-.page-details .tabs nav a:hover {
-  color: #768e9d;
-}
-
-.page-details .tabs nav li.tab-current a {
-  color: #47a3da;
-}
-
-.page-details .tabcontent section {
-  font-size: 1.25em;
-  padding: 3em 1em;
-  display: none;
-  max-width: 1230px;
-  margin: 0 auto;
-}
-
-.page-details .tabcontent section:before,
-.page-details .tabcontent section:after {
-  content: "";
-  display: table;
-}
-
-.page-details .tabcontent section:after {
-  clear: both;
-}
-
-.page-details .no-js .tabcontent section {
-  display: block;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #47a3da;
-}
-
-.page-details .tabcontent section.tabcontent-current {
-  display: block;
-}
-
-@media screen and (max-width: 52.375em) {
-  .page-details .tabs nav a span {
-    display: none;
-  }
-  .page-details .tabs nav a:before {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 32em) {
-  .page-details .tabs nav ul,
-  .page-details .tabs nav ul li a {
-    width: 100%;
-    padding: 0;
-  }
-  .page-details .tabs nav ul li {
-    width: 20%;
-    width: calc(20% + 1px);
-    margin: 0 0 0 -1px;
-  }
-  .page-details .tabs nav ul li:last-child {
-    border-right: none;
-  }
+.page-details .btn-qty-tambah {
+  background-color: #ffb92d;
 }
 
 .store-cart h2 {
@@ -11317,6 +11201,66 @@ footer p {
 .login-card-footer-nav a {
   font-size: 14px;
   color: #919aa3;
+}
+
+.page-success .row-login {
+  min-height: 75vh;
+}
+
+.page-success .section-section h2 {
+  font-size: 28px;
+  font-weight: 200;
+  color: #0c0d36;
+  margin-top: 0;
+}
+
+.page-success .btn-signup {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+  color: #bbbbbb;
+}
+
+.page-success .btn-signup:hover {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-success .btn-signup:focus, .page-success .btn-signup.focus {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-success .btn-signup.disabled, .page-success .btn-signup:disabled {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
+.page-success .btn-signup:not(:disabled):not(.disabled):active, .page-success .btn-signup:not(:disabled):not(.disabled).active,
+.show > .page-success .btn-signup.dropdown-toggle {
+  color: #212529;
+  background-color: #dadada;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-success .btn-signup:not(:disabled):not(.disabled):active:focus, .page-success .btn-signup:not(:disabled):not(.disabled).active:focus,
+.show > .page-success .btn-signup.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-success .btn-success {
+  background: #ffb92d;
+  border: none;
+}
+
+.page-success .btn-success:hover {
+  background: #e4a21f;
 }
 
 .components-categories {
